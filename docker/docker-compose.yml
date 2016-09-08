@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  hello-world:
+    image: cwng-hello-world
+    ports:
+     - "7979:7979"
